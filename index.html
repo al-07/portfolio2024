@@ -48,7 +48,7 @@
         <div class="navbar-actions">
           <select name="language" id="lang">
             <option value="en">En</option>
-            <option value="ar">Id</option>
+            <option value="id">Id</option>
           </select>
 
           <button
@@ -61,40 +61,41 @@
           </button>
         </div>
 
-        <button
-          class="nav-toggle-btn"
-          aria-label="Toggle Menu"
-          title="Toggle Menu"
-          data-nav-toggle-btn
-        >
-          <span class="one"></span>
-          <span class="two"></span>
-          <span class="three"></span>
-        </button>
+ <button
+    class="nav-toggle-btn"
+    aria-label="Toggle Menu"
+    title="Toggle Menu"
+    data-nav-toggle-btn
+  >
+    <span class="one"></span>
+    <span class="two"></span>
+    <span class="three"></span>
+  </button>
 
-        <nav class="navbar" data-navbar>
-          <ul class="navbar-list">
-            <li>
-              <a href="#home" class="navbar-link">Home.</a>
-            </li>
+  <nav class="navbar" data-navbar>
+    <ul class="navbar-list">
+	
+      <li>
+		<a href="#home" class="navbar-link" data-translate="Home." class="nav-item">Home.</a>
+      </li>
 
-            <li>
-              <a href="#about" class="navbar-link">About.</a>
-            </li>
+      <li>
+		<a href="#about" class="navbar-link" data-translate="About." class="nav-item">About.</a>
+      </li>
 
-            <li>
-              <a href="#skills" class="navbar-link">Skills.</a>
-            </li>
+      <li>
+        <a href="#skills" class="navbar-link" data-translate="Skills." class="nav-item">Skills.</a>
+      </li>
 
-            <li>
-              <a href="#portfolio" class="navbar-link">Portfolio.</a>
-            </li>
-
-            <li>
-              <a href="#contact" class="navbar-link">Contact.</a>
-            </li>
-          </ul>
-        </nav>
+      <li>
+        <a href="#portfolio" class="navbar-link" data-translate="Portfolio." class="nav-item">Portfolio.</a>
+      </li>
+	  
+	  <li>
+        <a href="#contact" class="navbar-link" data-translate="Contact." class="nav-item">Contact.</a>
+      </li>
+    </ul>
+  </nav>
       </div>
     </header>
 
@@ -108,15 +109,15 @@
           <figure class="hero-banner">
             <picture>
               <source
-                srcset="./assets/images/arya-bg-2.png"
+                srcset="./assets/images/rizd-bg-2.png"
                 media="(min-width: 768px)"
               />
               <source
-                srcset="./assets/images/arya-bg-md.png"
+                srcset="./assets/images/rizd-bg-md.png"
                 media="(min-width: 500px)"
               />
               <img
-                src="./assets/images/arya-bg-sm.png"
+                src="./assets/images/rizd-bg-sm.png"
                 alt="A man in a blue shirt with a happy expression"
                 class="w-100"
               />
@@ -124,9 +125,9 @@
           </figure>
 
           <div data-aos="fade-up" data-aos-duration="1500" class="hero-content">
-            <h2 class="h2 hero-title">I Design & Build Creative Products</h2>
+            <h2 data-translate="heroTitle" class="h2 hero-title">I Design & Build Creative Products</h2>
 
-            <a href="#contact" class="btn btn-primary">Get in touch</a>
+            <a href="#contact"  data-translate="Get in touch" class="btn btn-primary">Get in touch</a>
           </div>
 
           <ul
@@ -173,7 +174,7 @@
                   />
                 </div>
 
-                <h2 class="h2 card-title">
+                <h2 data-translate="years" class="h2 card-title">
                   2+ <strong>Years of Experience</strong>
                 </h2>
 
@@ -190,7 +191,7 @@
                   />
                 </div>
 
-                <h2 class="h2 card-title">
+                <h2 data-translate="workclr" class="h2 card-title">
                   45+ <strong>Completed Projects</strong>
                 </h2>
 
@@ -207,7 +208,7 @@
                   />
                 </div>
 
-                <h2 class="h2 card-title">
+                <h2 data-translate="happycln" class="h2 card-title">
                   30+ <strong>Happy Clients</strong>
                 </h2>
 
@@ -223,7 +224,7 @@
 
         <section class="about" id="about">
           <figure
-            data-aos="fade-left"
+            data-aos="fade-right"
             data-aos-duration="1500"
             class="about-banner"
           >
@@ -235,17 +236,17 @@
           </figure>
 
           <div
-            data-aos="fade-left"
+            data-aos="fade-right"
             data-aos-duration="1500"
             class="about-content section-content"
           >
-            <p class="section-subtitle">About me</p>
+            <p data-translate="aboutme" class="section-subtitle">About me</p>
 
-            <h2 class="h3 section-title">
+            <h2 data-translate="secAboutme" class="h3 section-title">
               Need a Creative Product? I can Help You!
             </h2>
 
-            <p class="section-text">
+            <p data-translate="aboutSubtitle" class="section-text">
               Hi! I’m Alfarizd, and I’m a Frontend Developer who has passion for
               building clean web design with intuitive functionalities. I enjoy
               the process of turning ideas into reality using creative
@@ -257,15 +258,18 @@
             </p>
 
             <div
-              data-aos="fade-left"
+              data-aos="fade-right"
               data-aos-duration="1500"
               class="btn-group"
             >
-              <a href="https://wa.me/+6287787525867">
-                <button class="btn btn-secondary">Hire me</button>
-              </a>
+				<a href="https://wa.me/+6287787525867">
+				<button data-translate="hireMe" class="btn btn-secondary">Hire me</button>
+				</a>
 
-              <button class="btn btn-primary">Download cv</button>
+				
+				<a href="https://drive.google.com/file/d/1s8Zdsvb18PZ37kPOKLYZcTB6A7mVCffX/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+				<button data-translate="downloadCv" class="btn btn-primary">Download cv</button>
+				</a>
             </div>
           </div>
         </section>
@@ -275,19 +279,19 @@
       -->
 
         <section
-          data-aos="fade-left"
+          data-aos="fade-right"
           data-aos-duration="1500"
           class="skills"
           id="skills"
         >
           <div class="skills-content section-content">
-            <p class="section-subtitle">My skills</p>
+            <p data-translate="myskills" class="section-subtitle">My skills</p>
 
-            <h2 class="h3 section-title">
+            <h2 data-translate="h3sectitle" class="h3 section-title">
               What My Programming Skills Included?
             </h2>
 
-            <p class="section-text">
+            <p data-translate="h3sectext" class="section-text">
               I develop simple, intuitive and responsive user interface that
               helps users get things done with less effort and time with those
               technologies.
@@ -487,13 +491,13 @@
           <ul class="project-list">
             <li data-aos="fade-right" data-aos-duration="1000">
               <div class="project-content section-content">
-                <p class="section-subtitle">My Works</p>
+                <p data-translate="mywork" class="section-subtitle">My Works</p>
 
-                <h2 class="h3 section-title">
+                <h2 data-translate="h3sectitleproject" class="h3 section-title">
                   See My Works Which Will Amaze You!
                 </h2>
 
-                <p class="section-text">
+                <p data-translate="sectextproject" class="section-text">
                   We develop the best quality website that serves for the
                   long-term. Well-documented, clean, easy and elegant interface
                   helps any non-technical clients.
@@ -652,19 +656,19 @@
       -->
 
         <section
-          data-aos="fade-left"
+          data-aos="fade-right"
           data-aos-duration="1500"
           class="contact"
           id="contact"
         >
           <div class="contact-content section-content">
-            <p class="section-subtitle">Contact</p>
+            <p data-translate="contactv2" class="section-subtitle">Contact</p>
 
-            <h2 class="h3 section-title">
+            <h2 data-translate="contactv3" class="h3 section-title">
               Want to order services? Please Drop a Message
             </h2>
 
-            <p class="section-text">
+            <p data-translate="contactv4" class="section-text">
               Get in touch and let me know how i can help. Fill out the form and
               i’ll be in touch as soon as possible.
             </p>
@@ -676,7 +680,7 @@
                 </div>
 
                 <div class="wrapper">
-                  <h3 class="h4 contact-item-title">Address:</h3>
+                  <h3 data-translate="addressv2" class="h4 contact-item-title">Address:</h3>
 
                   <address class="contact-info">
                     Dusun Gabus RT.03/RW.03, Desa Tunggorono, Jombang, Jawa Timur
@@ -690,7 +694,7 @@
                 </div>
 
                 <div class="wrapper">
-                  <h3 class="h4 contact-item-title">Phone:</h3>
+                  <h3 data-translate="phonev2" class="h4 contact-item-title">Phone:</h3>
 
                   <a href="tel:087787525867" class="contact-info"
                     >(+62) 87787525867 (Whatsapp)</a
@@ -723,32 +727,32 @@
               <li>
                 <ul class="contac-social-list">
                   <li>
-  <a href="https://www.facebook.com/alfarizd027" class="contact-social-link" target="_blank" rel="noopener noreferrer">
-    <div class="tooltip">Facebook</div>
-    <ion-icon name="logo-facebook"></ion-icon>
-  </a>
-</li>
+				  <a href="https://www.facebook.com/alfarizd027" class="contact-social-link" target="_blank" rel="noopener noreferrer">
+					<div class="tooltip">Facebook</div>
+					<ion-icon name="logo-facebook"></ion-icon>
+				  </a>
+				</li>
 
-<li>
-  <a href="https://www.instagram.com/al_farizd/" class="contact-social-link" target="_blank" rel="noopener noreferrer">
-    <div class="tooltip">Instagram</div>
-    <ion-icon name="logo-instagram"></ion-icon>
-  </a>
-</li>
+				<li>
+				  <a href="https://www.instagram.com/al_farizd/" class="contact-social-link" target="_blank" rel="noopener noreferrer">
+					<div class="tooltip">Instagram</div>
+					<ion-icon name="logo-instagram"></ion-icon>
+				  </a>
+				</li>
 
-<li>
-  <a href="https://www.linkedin.com/in/mochamad-alfarizd-firmansah-515b86289/" id="linkedin-btn" class="contact-social-link" target="_blank" rel="noopener noreferrer">
-    <div class="tooltip">Linkedin</div>
-    <ion-icon name="logo-linkedin"></ion-icon>
-  </a>
-</li>
+				<li>
+				  <a href="https://www.linkedin.com/in/mochamad-alfarizd-firmansah-515b86289/" id="linkedin-btn" class="contact-social-link" target="_blank" rel="noopener noreferrer">
+					<div class="tooltip">Linkedin</div>
+					<ion-icon name="logo-linkedin"></ion-icon>
+				  </a>
+				</li>
 
-<li>
-  <a href="https://wa.me/+6287787525867" class="contact-social-link" target="_blank" rel="noopener noreferrer">
-    <div class="tooltip">WhatsApp</div>
-    <ion-icon name="logo-whatsapp"></ion-icon>
-  </a>
-</li>
+				<li>
+				  <a href="https://wa.me/+6287787525867" class="contact-social-link" target="_blank" rel="noopener noreferrer">
+					<div class="tooltip">WhatsApp</div>
+					<ion-icon name="logo-whatsapp"></ion-icon>
+				  </a>
+				</li>
                 </ul>
               </li>
             </ul>
